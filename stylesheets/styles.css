@@ -1,19 +1,4 @@
 /*---------------------------------------------------------------------------
-NOTES
-
-font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
-
-TEXT COLOR = #292929
-GREEN COLOR = #47b475
-BACKGROUND COLOR = #F9F9F9
-
-
-*****************************************************************************
----------------------------------------------------------------------------*/
-
-
-/*---------------------------------------------------------------------------
 GENERAL CSS
 ---------------------------------------------------------------------------*/
 
@@ -23,12 +8,13 @@ html, body {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     color: #333;
     font-weight: 400;
     line-height: 1.7;
     background-color: #F9F9F9;
     text-rendering: optimizeLegibility;
+    padding-top: 60px;
 }
 
 
@@ -40,7 +26,7 @@ h1 {
     margin: 0;
     padding: 0 0 20px 0;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 24px;
     text-transform: uppercase;
 }
 
@@ -55,10 +41,10 @@ h1:after {
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 300;
     margin: 0;
-    padding: 5px 0 45px 0;
+    padding: 5px 0 25px 0;
 }
 
 h2:after {
@@ -71,7 +57,7 @@ h2:after {
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
     margin: 0;
     padding: 15px 0;
@@ -96,13 +82,14 @@ PARAGRAPHS
 ---------------------------------------------------------------------------*/
 
 .intro-p {
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 300;
 }
 
 .hero-p {
-    font-size: 18px;
+    font-size: 15px;
 }
+
 
 /*---------------------------------------------------------------------------
 BUTTONS
@@ -110,7 +97,7 @@ BUTTONS
 
 .btn-color {
     border-radius: 0;
-    padding: 13px 20px;
+    padding: 10px 15px;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -131,7 +118,7 @@ BUTTONS
 
 .btn-ghost {
     border-radius: 0;
-    padding: 10px 15px;
+    padding: 5px 10px;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -219,9 +206,9 @@ FORMS
 
 .form-control {
     border-radius: 0;
-    margin: 20px 0;
-    font-size: 17px;
-    padding: 20px 10px;
+    margin: 15px 0;
+    font-size: 15px;
+    padding: 10px 5px;
 }
 
 input.form-control:focus, textarea.form-control:focus {
@@ -237,6 +224,7 @@ ICONS
 .social-icons {
     margin: 0;
     padding: 0;
+    margin: 0 auto;
 }
 
 .social-icons li {
@@ -259,7 +247,7 @@ ICONS
 }
 
 .fa-large {
-    font-size: 42px;
+    font-size: 34px;
 }
 
 .fa-medium {
@@ -280,8 +268,8 @@ MAINSITE NAVIGATION (TOP)
 
 .navbar {
     background-color: #F9F9F9;
-    padding: 20px 100px;
-    transition: all .5s ease-in-out;
+    padding: 0;
+    transition: all .3s linear;
     box-shadow: 1px 1px 1px #999;
 }
 
@@ -311,8 +299,8 @@ MAINSITE NAVIGATION (TOP)
 .navbar .navbar-brand {
     letter-spacing: 1px;
     color: #292929;
-    font-size: 22px;
-    margin-top: -7px;
+    font-size: 17px;
+    margin-top: 8px;
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
@@ -325,7 +313,7 @@ MAINSITE NAVIGATION (TOP)
 
 .navbar .navbar-brand i {
     color: #47b475;
-    font-size: 22px;
+    font-size: 17px;
     padding-right: 10px;
 }
 
@@ -333,8 +321,8 @@ MAINSITE NAVIGATION (TOP)
 /*---ONSCROLL MAINSITE NAVIGATION---*/
 
 .onscroll-navbar {
-    padding: 15px 25px;
-    background-color: #f9f9f9;
+    padding: 0;
+    background-color: #F9F9F9;
 }
 
 .onscroll-navbar.navbar .navbar-brand {
@@ -350,12 +338,12 @@ MAINSITE NAVIGATION (TOP)
 /*---MOBILE MAINSITE NAVIGATION---*/
 
 .navbar-toggle {
-    background-color: #f9f9f9;
+    background-color: #F9F9F9;
 }
 
 .navbar-toggle i {
     color: #292929;
-    font-size: 26px;
+    font-size: 17px;
     margin-top: 5px;
 }
 
@@ -363,24 +351,28 @@ MAINSITE NAVIGATION (TOP)
 /*---CLIENT LOGIN MODAL---*/
 
 .modal-content {
-    padding: 25px;
-    max-width: 575PX;
+    padding: 10px;
     background-color: #F9F9F9;
     margin: 0 auto;
     border-radius: 0px;
     box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     font-family: 'Lato', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .modal-footer {
-    text-align: left;
+    text-align: center;
+}
+
+.modal-title {
+    text-align: center;
+    padding: 0;
 }
 
 .clientlogin-submit {
     border-radius: 0;
-    padding: 12px 25px;
+    padding: 5px 15px;
     font-size: 15px;
     font-weight: 400;
     text-transform: uppercase;
@@ -429,15 +421,15 @@ STAY INFORMED SECTION
 
 #stay-informed {
     border-top: 1px solid #CCC;
-    padding: 65px 0;
+    padding: 25px 0;
 }
 
 #stay-informed input {
-    margin-right: 15px;
+    margin-right: 0;
 }
 
-#stay-informed h2 {
-    padding-bottom: 35px;
+#stay-informed p {
+    padding-bottom: 15px;
 }
 
 #stay-informed h2:after {
@@ -453,7 +445,8 @@ FOOTER
 footer {
     background-color: #ededed;
     border-top: 1px solid #d9d9d9;
-    padding: 25px 0 25px 0;
+    padding: 25px 0;
+    text-align: center;
 }
 
 
@@ -467,12 +460,12 @@ HOMEPAGE
 header {
     background-image: url(../images/hero.jpg);
     background-color: #F9F9F9;
-    height: 80%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-attachment: fixed;
+    background-attachment: scroll;
     border-bottom: 1px solid #999;
 }
 
@@ -482,16 +475,15 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(249, 249, 249, 0.85);
-    padding: 25px 30px; 
-    max-width: 750px;
+    background-color: rgba(249, 249, 249, 0.9);
+    padding: 25px 30px;
 }
 
 
 /*---HOMEPAGE INTRO SECTION---*/
 
 #homepage-intro {
-    padding: 50px 0;
+    padding: 25px 0;
     background-color: #FFF;
 }
 
@@ -499,24 +491,24 @@ header {
 /*---HOMEPAGE FEATURES SECTION---*/
 
 #homepage-features {
-    padding: 100px 0;
+    padding: 25px 0;
 }
 
 #homepage-features [class*=col-] {
-    padding: 0 25px;
+    padding: 10px 15px;
 }
 
 
 /*---HOMEPAGE HOW WE CAN HELP SECTION---*/
 
 #homepage-help {
-    padding: 100px 0 100px 0;
-    background-color: #fff;
+    padding: 25px 0;
+    background-color: #FFF;
 }
 
 #homepage-help img {
-    margin: 0 15px;
-    max-width: 90%;
+    margin: 25px 0;
+    max-width: 100%;
 }
 
 
@@ -525,12 +517,12 @@ WHO WE ARE PAGE
 ---------------------------------------------------------------------------*/
 
 #who-we-are {
-    padding: 135px 0 125px 0;
+    padding: 25px 0;
     background-color: #FFF;
 }
 
 #who-we-are img {
-    margin: 0 0 25px 0;
+    margin: 25px 0;
 }
 
 
@@ -539,20 +531,20 @@ HOW WE HELP PAGE
 ---------------------------------------------------------------------------*/
 
 #how-we-help-services {
-    padding: 135px 0 100px 0;
+    padding: 25px 0;
     background-color: #FFF;
 }
 
 .service-item {
-    margin: 30px 0;
+    margin: 25px 0;
 }
 
 #how-we-help-services img {
-    margin: 25px 0 25px 0;
+    margin: 25px 0;
 }
 
 #how-we-help-approach {
-    padding: 50px 0 50px 0;
+    padding: 25px 0;
 }
 
 #how-we-help-approach p:first-of-type {
@@ -560,16 +552,16 @@ HOW WE HELP PAGE
 }
 
 #how-we-help-approach [class*=col-] {
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 #how-we-help-promise {
-    padding: 75px 0 100px 0;
+    padding: 25px 0;
     background-color: #FFF;
 }
 
 #how-we-help-promise img {
-    margin: 0 0 25px 0;
+    margin: 25px 0;
 }
 
 
@@ -578,12 +570,12 @@ TEAM PAGE
 ---------------------------------------------------------------------------*/
 
 #team {
-    padding: 135px 0 100px 0;
+    padding: 25px 0;
     background-color: #FFF;
 }
 
 #team p:first-of-type {
-    padding: 0 10px 0 0;
+    padding: 0;
 }
 
 
@@ -592,8 +584,7 @@ TEAM PAGE
 .card {
     border: 1px solid #CCC;
     background-color: #F9F9F9;
-    margin: 0 0 30px 0;
-    max-width: 245px;
+    margin: 25px auto;
 }
 
 .card-container {
@@ -619,13 +610,12 @@ CONTACT PAGE
 ---------------------------------------------------------------------------*/
 
 #contact-details {
-    padding: 135px 0 50px 0;
+    padding: 25px 0;
     background-color: #FFF;
 }
 
 #contact-details h3 {
-    margin: 25px 0 5px;
-    0;
+    margin: 25px 0 0 0;
     padding: 0;
 }
 
@@ -638,6 +628,26 @@ CONTACT PAGE
 }
 
 #contact-phone-call {
-    padding: 75px 0 100px 0;
+    padding: 35px 0;
     background-color: #FFF;
+}
+
+
+/*---------------------------------------------------------------------------
+ANIMATIONS
+---------------------------------------------------------------------------*/
+
+.js-waypoint-1 {
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js-waypoint-2, .js-waypoint-3 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js-waypoint-1.animated {
+    opacity: 1;
 }

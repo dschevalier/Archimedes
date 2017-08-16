@@ -1,11 +1,197 @@
-@media (max-width: 992px) {
-    .navbar {
-        padding: 0;
+
+
+@media only screen and (min-width: 360px) {
+    body {
+        font-size: 16px;
     }
     .navbar .navbar-brand {
-        margin-top: 4px;
+        font-size: 20px;
     }
-    .onscroll-navbar.navbar .navbar-brand {
-        margin-top: 4px;
+    .navbar .navbar-brand i {
+        font-size: 20px;
+    }
+    .navbar-toggle i {
+        font-size: 20px;
+    }
+    .modal-title {
+        padding: 3px 0;
+    }
+    .clientlogin-submit {
+        padding: 12px 25px;
+    }
+    .form-control {
+        margin: 20px 0;
+        font-size: 17px;
+        padding: 20px 10px;
+    }
+    .btn-color {
+        padding: 13px 20px;
+        font-size: 15px;
+    }
+    .hero-p {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .fa-large {
+        font-size: 42px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    .btn-ghost {
+        padding: 10px 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        height: 85%;
+        background-attachment: fixed;
+    }
+    .hero-textbox {
+        max-width: 750px;
+    }
+    .modal-content {
+        padding: 25px;
+        max-width: 575PX;
+        font-size: 17px;
+    }
+    .modal-footer {
+        text-align: left;
+    }
+    .modal-title {
+        text-align: left;
+        padding: 10px 0;
+    }
+    #homepage-features [class*=col-] {
+        padding: 10px 25px;
+    }
+    #stay-informed input {
+        margin-right: 15px;
+    }
+    #how-we-help-approach [class*=col-] {
+        padding: 0 20px;
+    }
+    .card {
+        margin: 10px 0;
+        max-width: 245px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar {
+        padding: 10px 12px;
+    }
+    .navbar-nav>li>a {
+        padding: 10px 10px;
+    }
+    .navbar .navbar-brand {
+        font-size: 22px;
+    }
+    .navbar .navbar-brand i {
+        font-size: 22px;
+    }
+    .navbar-toggle i {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 32px;
+        padding: 5px 0 45px 0;
+    }
+    .intro-p {
+        font-size: 24px;
+    }
+    footer {
+        text-align: left;
+    }
+    .social-icons {
+        float: right;
+    }
+    #stay-informed {
+        padding: 50px 0;
+    }
+    #homepage-intro {
+        padding: 50px 0;
+    }
+    #homepage-features {
+        padding: 50px 0;
+    }
+    #homepage-help {
+        padding: 50px 0;
+    }
+    #who-we-are {
+        padding: 75px 0 50px 0;
+    }
+    #who-we-are img {
+        margin: 0 0 25px 0;
+    }
+    #how-we-help-services {
+        padding: 75px 0 50px 0;
+    }
+    #how-we-help-approach {
+        padding: 50px 0;
+    }
+    #how-we-help-promise {
+        padding: 50px 0;
+    }
+    #how-we-help-promise img {
+        margin: 0 0 25px 0;
+    }
+    #team {
+        padding: 75px 0 50px 0;
+    }
+    #contact-details {
+        padding: 75px 0 50px 0;
+    }
+    #contact-phone-call {
+        padding: 50px 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .navbar {
+        padding: 20px 100px;
+    }
+    .navbar-nav>li>a {
+        padding: 10px 15px;
+        margin-top: 5px;
+    }
+    .navbar .navbar-brand {
+        margin-top: 0;
+    }
+    .onscroll-navbar {
+        padding: 15px 25px;
+    }
+    header {
+        height: 80%;
+    }
+    .intro-p {
+        font-size: 26px;
+    }
+    #homepage-features {
+        padding: 75px 0;
+    }
+    #homepage-help {
+        padding: 75px 0;
+    }
+    #who-we-are {
+        padding: 75px 0;
+    }
+    #how-we-help-approach {
+        padding: 75px 0;
+    }
+    #how-we-help-promise {
+        padding: 75px 0;
+    }
+    #team p:first-of-type {
+        padding: 0 10px 0 0;
+    }
+    .card {
+        margin: 0 0 30px 0;
+    }
+    #contact-phone-call {
+        padding: 75px 0;
     }
 }
