@@ -41,14 +41,14 @@ $(document).ready(function () {
 
     /*---BOUNCE ON HOMEPAGE HOW WE HELP BUTTON---*/
     $('.js-waypoint-2').waypoint(function (direction) {
-        $('.js-waypoint-2').addClass('animated bounce');
+        $('.js-waypoint-2').addClass('animated pulse');
     }, {
         offset: '85%'
     });
 
     /*---BOUNCE ON  HOW WE HELP PAGE CONTACT US BUTTON---*/
     $('.js-waypoint-3').waypoint(function (direction) {
-        $('.js-waypoint-3').addClass('animated bounce');
+        $('.js-waypoint-3').addClass('animated pulse');
     }, {
         offset: '75%'
     });

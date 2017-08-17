@@ -33,7 +33,7 @@ h1 {
 h1:after {
     display: block;
     height: 2px;
-    background-color: #47b475;
+    background-color: #47B475;
     content: " ";
     width: 65%;
     margin: 0 auto;
@@ -50,7 +50,7 @@ h2 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #47b475;
+    background-color: #47B475;
     content: " ";
     width: 200px;
     margin-top: 15px;
@@ -104,9 +104,10 @@ BUTTONS
     letter-spacing: 1px;
     border: 1px solid transparent;
     color: #FFF;
-    background-color: #47b475;
-    border: 1px solid #47b475;
+    background-color: #47B475;
+    border: 1px solid #47B475;
     margin: 15px 0;
+    -webkit-transition: all .2s linear;
     transition: all .2s linear;
 }
 
@@ -128,13 +129,14 @@ BUTTONS
     background-color: transparent;
     border: 1px solid #292929;
     margin: 15px 0;
+    -webkit-transition: all .2s linear;
     transition: all .2s linear;
 }
 
 .btn-ghost:hover, btn-ghost:focus {
     color: #FFF;
-    background-color: #47b475;
-    border: 1px solid #47b475;
+    background-color: #47B475;
+    border: 1px solid #47B475;
 }
 
 
@@ -143,14 +145,28 @@ LINKS
 ---------------------------------------------------------------------------*/
 
 a.email-link:link, a.email-link:visited {
-    color: #47b475;
+    color: #47B475;
     border-bottom: 1px solid transparent;
+    -webkit-transition: all .2s linear;
     transition: all .2s linear;
 }
 
 a.email-link:hover, a.email-link:active {
-    border-bottom: 1px solid #47b475;
+    border-bottom: 1px solid #47B475;
     text-decoration: none;
+}
+
+#goto-how-we-help-approach {
+    background-color: #FFF;
+    height: 50px;
+    display: block;
+    content: '';
+}
+
+#goto-how-we-help-promise {
+    height: 50px;
+    display: block;
+    content: '';
 }
 
 
@@ -196,6 +212,7 @@ IMAGES
 ---------------------------------------------------------------------------*/
 
 img {
+    -webkit-box-shadow: 0px 2px 3px #888888;
     box-shadow: 0px 2px 3px #888888;
 }
 
@@ -212,7 +229,8 @@ FORMS
 }
 
 input.form-control:focus, textarea.form-control:focus {
-    border-color: #47b475;
+    border-color: #47B475;
+    -webkit-box-shadow: 0 0 0 transparent;
     box-shadow: 0 0 0 transparent;
 }
 
@@ -231,15 +249,17 @@ ICONS
     list-style: none;
     display: inline-block;
     margin: 15px 0 0 0;
+    -webkit-transition: all .2s linear;
     transition: all .2s linear;
 }
 
 .social-icons li:hover {
+    -webkit-transform: scale(1.3);
     transform: scale(1.3);
 }
 
 .fa-green {
-    color: #47b475;
+    color: #47B475;
 }
 
 .fa-white {
@@ -269,7 +289,9 @@ MAINSITE NAVIGATION (TOP)
 .navbar {
     background-color: #F9F9F9;
     padding: 0;
+    -webkit-transition: all .3s linear;
     transition: all .3s linear;
+    -webkit-box-shadow: 1px 1px 1px #999;
     box-shadow: 1px 1px 1px #999;
 }
 
@@ -282,13 +304,14 @@ MAINSITE NAVIGATION (TOP)
     padding: 10px 15px;
     text-transform: uppercase;
     border: 1px solid transparent;
+    -webkit-transition: all .2s linear;
     transition: all .2s linear;
 }
 
 .navbar-nav>li>a:hover {
     background: transparent;
-    color: #47b475;
-    border: 1px solid #47b475;
+    color: #47B475;
+    border: 1px solid #47B475;
 }
 
 .navbar-nav>li>a:focus {
@@ -312,7 +335,7 @@ MAINSITE NAVIGATION (TOP)
 }
 
 .navbar .navbar-brand i {
-    color: #47b475;
+    color: #47B475;
     font-size: 17px;
     padding-right: 10px;
 }
@@ -355,6 +378,7 @@ MAINSITE NAVIGATION (TOP)
     background-color: #F9F9F9;
     margin: 0 auto;
     border-radius: 0px;
+    -webkit-box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     font-family: 'Lato', sans-serif;
@@ -379,10 +403,11 @@ MAINSITE NAVIGATION (TOP)
     letter-spacing: 1px;
     border: 1px solid transparent;
     color: #FFF;
-    background-color: #47b475;
-    border: 1px solid #47b475;
+    background-color: #47B475;
+    border: 1px solid #47B475;
     margin: 15px 15px 15px 0;
     display: inline;
+    -webkit-transition: all .2s linear;
     transition: all .2s linear;
 }
 
@@ -392,22 +417,30 @@ MAINSITE NAVIGATION (TOP)
     border: 1px solid #292929;
 }
 
+
+/*---BTN FOR BITBALLON DEMO---*/
+
+.modal-content .btn {
+    margin-right: 25px;
+}
+
 a.modal-link:link, a.modal-link:visited {
-    color: #47b475;
+    color: #47B475;
     display: inline;
     font-weight: 400;
+    -webkit-transition: all .2s linear;
     transition: all .2s linear;
     border-bottom: 1px solid transparent;
 }
 
 a.modal-link:hover, a.modal-link:active {
-    color: #47b475;
+    color: #47B475;
     text-decoration: none;
-    border-bottom: 1px solid #47b475;
+    border-bottom: 1px solid #47B475;
 }
 
 .modal-header .close {
-    color: #47b475;
+    color: #47B475;
     font-size: 35px;
     opacity: 1;
     margin-top: -30px;
@@ -443,8 +476,8 @@ FOOTER
 ---------------------------------------------------------------------------*/
 
 footer {
-    background-color: #ededed;
-    border-top: 1px solid #d9d9d9;
+    background-color: #EDEDED;
+    border-top: 1px solid #D9D9D9;
     padding: 25px 0;
     text-align: center;
 }
@@ -474,6 +507,7 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-color: rgba(249, 249, 249, 0.9);
     padding: 25px 30px;
@@ -544,7 +578,7 @@ HOW WE HELP PAGE
 }
 
 #how-we-help-approach {
-    padding: 25px 0;
+    padding: 50px 0 0 0;
 }
 
 #how-we-help-approach p:first-of-type {
@@ -556,7 +590,7 @@ HOW WE HELP PAGE
 }
 
 #how-we-help-promise {
-    padding: 25px 0;
+    padding: 50px 0;
     background-color: #FFF;
 }
 
@@ -601,6 +635,7 @@ TEAM PAGE
 .card-img {
     width: 100%;
     display: block;
+    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -624,6 +659,7 @@ CONTACT PAGE
 }
 
 #map img {
+    -webkit-box-shadow: none;
     box-shadow: none;
 }
 

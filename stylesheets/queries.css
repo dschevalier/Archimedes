@@ -1,5 +1,3 @@
-
-
 @media only screen and (min-width: 360px) {
     body {
         font-size: 16px;
@@ -56,7 +54,7 @@
     .modal-content {
         padding: 25px;
         max-width: 575PX;
-        font-size: 17px;
+        font-size: 16px;
     }
     .modal-footer {
         text-align: left;
@@ -130,12 +128,6 @@
     #how-we-help-services {
         padding: 75px 0 50px 0;
     }
-    #how-we-help-approach {
-        padding: 50px 0;
-    }
-    #how-we-help-promise {
-        padding: 50px 0;
-    }
     #how-we-help-promise img {
         margin: 0 0 25px 0;
     }
@@ -171,7 +163,7 @@
         font-size: 26px;
     }
     #homepage-features {
-        padding: 75px 0;
+        padding: 50px 0;
     }
     #homepage-help {
         padding: 75px 0;
@@ -180,7 +172,7 @@
         padding: 75px 0;
     }
     #how-we-help-approach {
-        padding: 75px 0;
+        padding: 75px 0 0 0;
     }
     #how-we-help-promise {
         padding: 75px 0;
