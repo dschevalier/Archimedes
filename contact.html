@@ -117,7 +117,21 @@
     <!---CONTACT MAP SECTION--->
     <section class="contact-map">
         <div class="container-fluid">
-            <div id="map"></div>
+            <div id="map">
+                <script>
+                    function initMap() {
+                        // Create a map object and specify the DOM element for display.
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                            center: {
+                                lat: 42.3296446,
+                                lng: -72.6320807
+                            },
+                            zoom: 13
+                        });
+                    }
+
+                </script>
+            </div>
         </div>
     </section>
 
@@ -231,8 +245,7 @@
     <!---SCRIPTS--->
     <script src="javascript/jquery.1.12.4.min.js"></script>
     <script src="javascript/bootstrap.min.js"></script>
-    <script src="http://maps.google.com/maps/api/js"></script>
-    <script src="javascript/gmaps.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEIcBjI45JiTLBdPZ1aK2W82SGpjPxPTY&callback=initMap" async defer></script>
     <script src="javascript/scripts.js"></script>
 
 </body>

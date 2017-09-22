@@ -54,11 +54,3 @@ $(document).ready(function () {
     });
 });
 
-/*---CONTACT PAGE MAP---*/
-new GMaps({
-    div: '#map',
-    lat: 42.3296446,
-    lng: -72.6320807,
-    zoom: 13,
-    scrollwheel: false
-});
