@@ -226,6 +226,7 @@ FORMS
     margin: 15px 0;
     font-size: 15px;
     padding: 10px 5px;
+    height: auto;
 }
 
 input.form-control:focus, textarea.form-control:focus {
