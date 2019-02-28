@@ -1,6 +1,7 @@
-# Archimedes Capital
+## Archimedes Capital
 
-A multipage page responsive website for a fictional wealth management firm named Archimedes Capital. The site was developed with bootstrap 3 as an introduction on using a front-end framework. Built mobile first it features many of bootstrap’s components such as modals, buttons, forms and navbar. 
+[archimedes.dchevalier.io](https://archimedes.dchevalier.io)
 
+A multipage page project site developed for my personal site and its based around a fictional wealth management firm named Archimedes Capital. The site was developed as an introduction to using a front-end framework and for this I used Bootstrap. Features many of Bootstrap's base components such as modals, buttons, fomrs, navs, etc....
 
 
